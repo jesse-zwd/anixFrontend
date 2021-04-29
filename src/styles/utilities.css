@@ -1,0 +1,77 @@
+.space-x {
+  padding-bottom: 0.8rem;
+}
+
+.margin-r {
+  margin-right: 0.8rem;
+}
+
+.margin-t {
+  margin-top: 2rem;
+}
+
+.text-xs {
+  font-size: 0.8rem;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+}
+
+.text-light {
+  color: var(--secondary-color);
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* c - center */
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-end {
+  margin-left: auto;
+}
+
+/* others */
+.pointer {
+  cursor: pointer;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
