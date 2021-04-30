@@ -18,7 +18,7 @@ export default function AnimePage() {
   const [anime, setAnime] = useState(null);
   const [src, setSrc] = useState(null);
 
-  const [pagination, setPagination] = useState({
+  const [pagination, setPagination] = useState({ 
     start: 0,
     end: 12,
   });
@@ -38,8 +38,8 @@ export default function AnimePage() {
 
   if (isLoading) return <AnimePageSkeleton />;
 
-  if (!isLoading && anime === undefined) return <Redirect to="/" />;
-
+  if (!isLoading && !anime) return <Redirect to="/" />;
+  
   return (
     <StyledAnimePage>
       <img className="banner" src={anime?.bannerImage} alt="banner" />
